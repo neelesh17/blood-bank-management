@@ -5,10 +5,14 @@ import logo from '../../logo.svg'
 const NavBar = () => {
     return (
         <div className="navbarConatiner">
-            <div className="logoContainer"><img src={logo} alt="logo" /></div>
+            <div className="leftContainer">
+                <div className="logoContainer"><img src={logo} alt="logo" /></div>
+                <div className="brandName">Lifeline</div>
+            </div>
             <div className="rightMenu">
-                <div className="loginButton">Login</div>
-                <div className="registerButton">Register</div>
+                <div className="FAQButton">FAQ's</div>
+                <div className="aboutButton">About</div>
+                <div className="registerButton">Signup/Login</div>
             </div>
         </div>
     )

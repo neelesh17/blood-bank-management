@@ -1,0 +1,19 @@
+.footerContainer{
+    background: rgba(254, 109, 115, 0.29) 0% 0% no-repeat padding-box; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #227C9D;
+    padding: 0.5% 0;
+}
+.footerContainer .contactUs{
+    font-size: 24px;
+    font-family: Raleway;
+}
+.footerContainer .iconContainer{
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

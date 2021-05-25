@@ -1,15 +1,31 @@
 .navbarConatiner{
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    align-items: center;
+    padding: 1% 10%;
 }
-.logoContainer img{
+.navbarConatiner .leftContainer{
+    display: flex;
+    align-items: center;
+}
+.navbarConatiner .leftContainer .brandName{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #E82930;
+    margin-left: 13%;
+}
+.navbarConatiner .leftContainer .logoContainer img{
     height: 50px;
 }
 .rightMenu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 10%;
+    width: 15%;
+    font-family: Lusitana;
+    font-size: 18px;
+    font-weight: normal;
+    color: #E82930;
 }
