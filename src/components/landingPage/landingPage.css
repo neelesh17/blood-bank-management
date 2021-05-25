@@ -92,6 +92,71 @@
     opacity: 1;
     padding: 2% 10%;
 }
+.FAQConatiner .questions{
+    margin: 0 10%;
+}
+.FAQConatiner .questions .options{
+    display: flex;
+}
+.FAQConatiner .questions .options div{
+    padding: 1% 3%;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.FAQConatiner .questions .options .selectedType{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    z-index: 2;
+}
+
+.FAQConatiner .questions hr{
+   border: 1px solid #CBCBCB;
+   margin: 0;
+   position: relative;
+   top:-1.6px;
+}
+.FAQConatiner .questions .questionList{
+    display: flex;
+}
+.FAQConatiner .questions .questionList div{
+    max-width: 552px;
+    display: flex;
+    flex-direction: column;
+    margin: 1% auto;
+}
+
+.FAQConatiner .questions .questionList div .set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    padding: 0 2%;
+    
+}
+
+.FAQConatiner .questions .questionList div .set .question{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    color: #000000;
+    opacity: 1;
+}
+.FAQConatiner .questions .questionList div .set .answer{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    color: #000000;
+    opacity: 1;
+	
+}
+
+.FAQConatiner .questions .questionList hr{
+    width: 0px;
+    height: 375px;
+}
 
 .aboutUsContainer{
     height: 390px;

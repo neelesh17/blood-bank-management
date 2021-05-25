@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './landingPage.css'
-import { donationCompatibility } from '../../constants';
+import { donationCompatibility, FAQanswers } from '../../constants';
 
 const LandingPage = () => {
+    const [selected, setSelected] = useState("white-blood");
+    const handleSelect= async(e) => {
+        e.preventDefault();
+        document.getElementsByClassName("selectedType")[0].classList.remove("selectedType");
+        e.target.classList.add("selectedType");
+        await setSelected(e.target.getAttribute("id"));
+    }
     return ( 
         <div className="landingPageContainer">
             <div className="mainPage">
@@ -41,6 +48,48 @@ const LandingPage = () => {
                     The human body contains five liters of blood, which is made of several useful components i.e. Whole blood, Platelet, and Plasma.<br/>
                     Each type of component has several medical uses and can be used for different medical treatments. your blood donation determines the best donation for you to make. <br/>
                     For plasma and platelet donation you must have donated whole blood in past two years.
+                </div>
+                <div className="questions">
+                    <div className="options">
+                        <div id="white-blood" className="selectedType" onClick={handleSelect}>White Blood</div>
+                        <div id="plasma" onClick={handleSelect}> Plasma</div>
+                        <div id="platelet" onClick={handleSelect}>Platelet</div>
+                    </div>
+                    <hr />
+                    <div className="questionList">
+                        <div>
+                            <div className="set">
+                                <div className="question">What is It?</div>
+                                <div className="answer">{FAQanswers[selected][0]}</div>
+                            </div>
+                            <div className="set">
+                                <div className="question">Who can donate?</div>
+                                <div className="answer">{FAQanswers[selected][1]}</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <div className="set">
+                                <div className="question">Used for?</div>
+                                <div className="answer">{FAQanswers[selected][2]}</div>
+                            </div>
+                            <div className="set">
+                                <div className="question">Lasts For?</div>
+                                <div className="answer">{FAQanswers[selected][3]}</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <div className="set">
+                                <div className="question">How long does I take?</div>
+                                <div className="answer">{FAQanswers[selected][4]}</div>
+                            </div>
+                            <div className="set">
+                                <div className="question">How often can I donate?</div>
+                                <div className="answer">{FAQanswers[selected][5]}</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="aboutUsContainer" id="about">
