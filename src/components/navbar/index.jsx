@@ -10,9 +10,9 @@ const NavBar = () => {
                 <div className="brandName">Lifeline</div>
             </div>
             <div className="rightMenu">
-                <div className="FAQButton">FAQ's</div>
-                <div className="aboutButton">About</div>
-                <div className="registerButton">Signup/Login</div>
+                <a className="FAQButton" href="#faq" style={{cursor:"pointer"}}>FAQ's</a>
+                <a className="aboutButton" href="#about" style={{cursor:"pointer"}}>About</a>
+                <div className="registerButton" style={{cursor:"pointer"}}>Signup/Login</div>
             </div>
         </div>
     )

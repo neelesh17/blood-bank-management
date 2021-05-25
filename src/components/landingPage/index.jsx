@@ -35,7 +35,7 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="FAQConatiner">
+            <div className="FAQConatiner" id="faq">
                 <div className="FAQHeader">FAQ's</div>
                 <div className="FAQText">
                     The human body contains five liters of blood, which is made of several useful components i.e. Whole blood, Platelet, and Plasma.<br/>
@@ -43,7 +43,7 @@ const LandingPage = () => {
                     For plasma and platelet donation you must have donated whole blood in past two years.
                 </div>
             </div>
-            <div className="aboutUsContainer">
+            <div className="aboutUsContainer" id="about">
                 <div className="aboutUsHeader">About Us</div>
                 <div className="aboutUsText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</div>
             </div>

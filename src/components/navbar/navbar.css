@@ -19,7 +19,7 @@
 .navbarConatiner .leftContainer .logoContainer img{
     height: 50px;
 }
-.rightMenu{
+.navbarConatiner .rightMenu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,4 +28,8 @@
     font-size: 18px;
     font-weight: normal;
     color: #E82930;
+}
+.navbarConatiner .rightMenu a{
+    color: inherit;
+    text-decoration: none;
 }
