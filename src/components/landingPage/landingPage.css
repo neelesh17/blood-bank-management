@@ -1,10 +1,20 @@
-.landingPageContainer{
+.mainPage{
     width: 100%;
-    height: 85vh;
-    /* padding-top: 5%; */
+    height: 88.5vh;
+    padding-top: 1%;
+}
+.mainPage .backgroundContainer{
+    position: absolute;
+    bottom: 0px;
+    height: 600px;
+    width: 100%;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: #17C3B2 0% 0% no-repeat padding-box;
+    opacity: 0.29;
+    z-index: -1;
 }
 
-.landingPageContainer .header{
+.mainPage .header{
     text-align: center;
     letter-spacing: 0px;
     font-family: Raleway;
@@ -12,12 +22,94 @@
     color: #227C9D;
     opacity: 1;
     width: 65%;
-    margin: 0 auto;
+    margin: 1% auto;
 }
-.landingPageContainer .headerImageContainer{
+.mainPage .headerImageContainer{
     width: 1364px;
     height: 549px;
     margin: 0 auto;
+    margin-top: 3%;
     background: transparent url('../../assets/image1.jpg') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+.learnAboutDonation{
+    height: 623px;
+}
+.learnAboutDonation .headerText{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 48px;
+    color: #227C9D;
+    padding-top: 3%;
+}
+.learnAboutDonation .donationContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+}
+
+.learnAboutDonation .donationContent .donationImage{
+    width: 812px;
+    height: 457px;
+    background: transparent url('../../assets/image2.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.learnAboutDonation .donationContent .bloodCompatibilityTable .tableHeader{
+    background: #FE6D73 0% 0% no-repeat padding-box;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.learnAboutDonation .donationContent .bloodCompatibilityTable th, .learnAboutDonation .donationContent .bloodCompatibilityTable td{
+    font-family: Raleway;
+    font-size: 18px;
+    border: 1px solid #707070;
+    width: 210px;
+    text-align: left;
+    padding-left: 2%;
+    border-spacing: 0cm;
+}
+.FAQConatiner{
+    height: 886px;
+    background: rgba(23, 195, 178, 0.29) 0% 0% no-repeat padding-box;
+}
+.FAQConatiner .FAQHeader{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 42px;
+    color: #227C9D;
+    opacity: 1;
+    padding-top: 1%;
+}
+.FAQConatiner .FAQText{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    color: #000000;
+    opacity: 1;
+    padding: 2% 10%;
+}
+
+.aboutUsContainer{
+    height: 390px;
+}
+
+.aboutUsContainer .aboutUsHeader{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 48px;
+    color: #227C9D;
+    opacity: 1;
+    padding-top: 2%;
+}
+.aboutUsContainer .aboutUsText{
+    text-align: center;
+    font: normal normal normal 30px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 3% 10%;
 }
