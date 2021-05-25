@@ -1,0 +1,23 @@
+.landingPageContainer{
+    width: 100%;
+    height: 85vh;
+    /* padding-top: 5%; */
+}
+
+.landingPageContainer .header{
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: Raleway;
+    font-size: 50px;
+    color: #227C9D;
+    opacity: 1;
+    width: 65%;
+    margin: 0 auto;
+}
+.landingPageContainer .headerImageContainer{
+    width: 1364px;
+    height: 549px;
+    margin: 0 auto;
+    background: transparent url('../../assets/image1.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
