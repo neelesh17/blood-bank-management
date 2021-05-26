@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className="rightMenu">
                 <a className="FAQButton" href="#faq" style={{cursor:"pointer"}}>FAQ's</a>
                 <a className="aboutButton" href="#about" style={{cursor:"pointer"}}>About</a>
-                <div className="registerButton" style={{cursor:"pointer"}}>Signup/Login</div>
+                <a className="registerButton" style={{cursor:"pointer"}} href="/signup">Signup/Login</a>
             </div>
         </div>
     )
