@@ -1,0 +1,87 @@
+.signupContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.signupContainer .backButton{
+    color: #227C9D;
+    font: normal normal normal 18px Raleway;
+    margin-top: 1%;
+    margin-left: 7%;
+    cursor: pointer;
+}
+.signupContainer .backButton a{
+    text-decoration: none;
+    color: inherit;
+}
+.signupContainer .signupHeader{
+    text-align: center;
+    font: normal normal normal 72px Raleway;
+    margin-top: 5%;
+    margin-right: 4%;
+    color: #227C9D;
+    opacity: 1;
+}
+.signupContainer .signupForm{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% auto;
+}
+.signupContainer .signupForm div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupContainer .signupForm input, .signupContainer .signupForm textarea{
+    height: 5vh;
+    box-shadow: 0px 5px 10px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: normal normal 300 28px Raleway;
+    letter-spacing: 0px;
+    color: #CBCBCB;
+    border-radius: 10px;
+    border: none;
+    margin: 1% 0;
+    padding-left: 1vw;
+}
+.signupContainer .signupForm input::placeholder, .signupContainer .signupForm textarea::placeholder{
+    color: #CBCBCB;
+}
+input[type="date"]:not(.has-value):before{
+    color: lightgray;
+    content: attr(placeholder);
+    margin-right: 1vw;
+}
+
+.signupContainer .signupForm .signUpButton{
+    width: 25%;
+    height: 5vh;
+    border: none;
+    background: #FE6D73 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.signupContainer .signupForm p{
+    font: normal normal 300 15px Raleway;
+    letter-spacing: 0px;
+    color: #227C9D;
+}
+
+.signupContainer .signupForm p a{
+    text-decoration: none;
+    color: #17C3B2;
+}
