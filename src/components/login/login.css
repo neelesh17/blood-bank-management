@@ -1,4 +1,4 @@
-.signupContainer img{
+.loginContainer img{
     position: absolute;
     top: 0;
     left: 0;
@@ -7,38 +7,32 @@
     z-index: -1;
 }
 
-.signupContainer .backButton{
+.loginContainer .backButton{
     color: #227C9D;
     font: normal normal normal 18px Raleway;
     margin-top: 1%;
     margin-left: 7%;
     cursor: pointer;
 }
-.signupContainer .backButton a{
+.loginContainer .backButton a{
     text-decoration: none;
     color: inherit;
 }
-.signupContainer .signupHeader{
+.loginContainer .loginHeader{
     text-align: center;
     font: normal normal normal 72px Raleway;
-    margin-top: 3.5%;
+    margin-top: 10%;
     color: #227C9D;
     opacity: 1;
 }
-.signupContainer .signupForm{
-    width: 45%;
+.loginContainer .loginForm{
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2% auto;
 }
-.signupContainer .signupForm div{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-.signupContainer .signupForm input, .signupContainer .signupForm textarea{
+.loginContainer .loginForm input{
     height: 5vh;
     box-shadow: 0px 5px 10px #00000029;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -50,16 +44,10 @@
     margin: 1% 0;
     padding-left: 1vw;
 }
-.signupContainer .signupForm input::placeholder, .signupContainer .signupForm textarea::placeholder{
+.loginContainer .loginForm input::placeholder{
     color: #CBCBCB;
 }
-input[type="date"]:not(.has-value):before{
-    color: lightgray;
-    content: attr(placeholder);
-    margin-right: 1vw;
-}
-
-.signupContainer .signupForm .signUpButton{
+.loginContainer .loginForm .loginButton{
     width: 25%;
     height: 5vh;
     border: none;
@@ -74,13 +62,13 @@ input[type="date"]:not(.has-value):before{
     cursor: pointer;
 }
 
-.signupContainer .signupForm p{
+.loginContainer .loginForm p{
     font: normal normal 300 15px Raleway;
     letter-spacing: 0px;
     color: #227C9D;
 }
 
-.signupContainer .signupForm p a{
+.loginContainer .loginForm p a{
     text-decoration: none;
     color: #17C3B2;
 }
