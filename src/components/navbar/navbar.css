@@ -4,9 +4,10 @@
     align-items: center;
     padding: 1% 10%;
 }
-.navbarConatiner .leftContainer{
+.navbarConatiner .leftContainer a{
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 .navbarConatiner .leftContainer .brandName{
     font-family: Raleway;
@@ -23,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 18%;
+    width: 35%;
     font-family: Lusitana;
     font-size: 18px;
     font-weight: normal;
