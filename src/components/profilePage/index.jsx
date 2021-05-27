@@ -1,9 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 import profile from "../../assets/profile.jpg"
-import { donationList } from '../../constants';
 import "./profile.css";
 
 const ProfilePage = () => {
+    const [userInfo, setUserInfo] = useState({
+        name :"John Doe",
+        conatct:"9486375461",
+        address:"422 Dicki Row Lavonne Key ,Albania",
+        bloodGroup:"AB+",
+        gender: "Male",
+        email: "johndoe@moogle.cc",
+        pinCode: "13815",
+        dob: "12-May-1999",
+        donationList: [
+            {
+                header: "White Blood",
+                date: "13-July-2019",
+                address: "City Hospital, Bhopal"
+            },
+            {
+                header: "Plasma",
+                date: "12-May-2020",
+                address: "AIMS Hospital, Bhopal"
+            },
+            {
+                header: "Platelets",
+                date: "26-December-2018",
+                address: "Hamidiya Hospital, Bhopal"
+            }
+        ]
+    });
     return ( 
         <div className="profilePageContainer">
             <div className="leftSide">
@@ -14,7 +40,7 @@ const ProfilePage = () => {
                 </div>
                 <div className="donationList">  
                 {
-                    donationList?.map(donation => (
+                    userInfo?.donationList?.map(donation => (
                         <div className="donation">
                         <div className="header">{donation.header}</div>
                         <div className="element">
@@ -29,20 +55,20 @@ const ProfilePage = () => {
                 </div>
             </div>
             <div className="rightSide">
-                <div className="username">John Doe</div>
+                <div className="username">{userInfo.name}</div>
                 <div className="divider">
                     <hr />
                     <p>Personal Information</p>
                 </div>
                 <div className="info">
                     <div className="element">
-                        <span>Gender:</span> <span className="gender value">Male</span>
+                        <span>Gender:</span> <span className="value">{userInfo.gender}</span>
                     </div>
                     <div className="element">
-                        <span>Date of Birth:</span> <span className="dob value">12-May-1999</span>
+                        <span>Date of Birth:</span> <span className="value">{userInfo.dob}</span>
                     </div>
                     <div className="element">
-                        <span>Blood Group:</span> <span className="bloodGroup value">AB+</span>
+                        <span>Blood Group:</span> <span className="value">{userInfo.bloodGroup}</span>
                     </div>
                 </div>
                 <div className="divider">
@@ -51,19 +77,19 @@ const ProfilePage = () => {
                 </div>
                 <div className="info">
                     <div className="element">
-                        <span>Phone Number :</span> <span className="contact value">9486375461</span>
+                        <span>Phone Number :</span> <span className="value">{userInfo.conatct}</span>
                     </div>
                     <div className="element">
-                        <span>Address :</span> <span className="address value">422 Dicki Row Lavonne Key ,Albania</span>
+                        <span>Address :</span> <span className="value">{userInfo.address}</span>
                     </div>
                     <div className="element">
-                        <span>Pin Code :</span> <span className="pinCode value">13815</span>
+                        <span>Pin Code :</span> <span className="value">{userInfo.pinCode}</span>
                     </div>
                     <div className="element">
-                        <span>Email :</span> <span className="email value">johndoe@moogle.cc</span>
+                        <span>Email :</span> <span className="value">{userInfo.email}</span>
                     </div>
                 </div>
-                <div className="editProfileButton">Edit</div>
+                <button className="editProfileButton"  data-toggle="modal" data-target="#modal" >Edit</button>
             </div>         
         </div>
     );

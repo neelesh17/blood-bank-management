@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
+import EditBlogDetailsModal from './components/editProfileDetailsModal';
 import Footer from './components/footer';
 import LandingPage from './components/landingPage';
 import Login from './components/login';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/:id/profile/" exact component={ProfilePage} />
         <Route path="/login" exact component={Login}/>
       </Switch>
+      <EditBlogDetailsModal />
       {window.location.href.includes("/signup") || window.location.href.includes("/login") ? null: <Footer />}
     </div>
   );

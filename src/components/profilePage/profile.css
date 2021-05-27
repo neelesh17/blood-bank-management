@@ -1,6 +1,6 @@
 .profilePageContainer{
     padding: 1% 10%;
-    height: 81.5vh;
+    min-height: 85vh;
     display: flex;
     justify-content: space-between;
 }
@@ -42,7 +42,6 @@
     padding: 3%;
 }
 .profilePageContainer .leftSide .donationList .donation{
-    height:10vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,6 +57,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 10%;
+    padding-bottom: 3%;
 }
 .profilePageContainer .leftSide .donationList .donation .element span{
     font: normal normal bold 20px Raleway;
@@ -73,7 +73,7 @@
 }
 
 .profilePageContainer .rightSide{
-    width: 50%;
+    width: 65%;
     display: flex;
     padding: 0 5%;
     flex-direction: column;

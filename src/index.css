@@ -21,3 +21,6 @@ code {
 input:focus, textarea:focus{
   outline: none;
 }
+.flex{
+  display: flex !important;
+}
