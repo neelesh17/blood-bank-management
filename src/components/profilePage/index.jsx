@@ -44,10 +44,10 @@ const ProfilePage = () => {
                         <div className="donation">
                         <div className="header">{donation.header}</div>
                         <div className="element">
-                            <span>Last Donated on:</span> <span className="donationDate value">{donation.date}</span>
+                            <span>Last Donated on:</span> <span className="donationDate value">{donation.date || "Not Avaliable"}</span>
                         </div>
                         <div className="element">
-                            <span>Place:</span> <span className="donationAddress value">{donation.address}</span>
+                            <span>Place:</span> <span className="donationAddress value">{donation.address  || "Not Avaliable"}</span>
                         </div>
                     </div> 
                     ))
