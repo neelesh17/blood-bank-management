@@ -11,7 +11,7 @@ const Login = () => {
                 <input style={{width:"100%"}} type="text" placeholder="Email" name="email" required/>
                 <input style={{width:"100%"}} type="password" placeholder="Password" name="password" required/>
                 <button type="submit" className="loginButton">Login</button>
-                <p>New user? <a href="/signup">SignUp</a></p>
+                <p>New user? <a href="/user/signup">SignUp</a></p>
             </form>
         </div>
     );

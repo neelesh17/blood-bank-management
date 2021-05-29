@@ -3,6 +3,7 @@ import './navbar.css';
 import logo from '../../assets/logo.svg'
 
 const NavBar = () => {
+
     return (
         <div className="navbarConatiner">
             <div className="leftContainer">
@@ -16,7 +17,16 @@ const NavBar = () => {
                 <a className="bankListButton" href={window.location.href==="/" ? "#faq" : "/"} style={{cursor:"pointer"}}>Blood Banks</a>
                 <a className="FAQButton"href={window.location.href==="/" ? "#faq" : "/#faq"} style={{cursor:"pointer"}}>FAQ's</a>
                 <a className="aboutButton" href={window.location.href==="/" ? "#about" : "/#about"} style={{cursor:"pointer"}}>About</a>
-                <a className="userNameButton" href="/1/profile" style={{cursor:"pointer"}}>John Doe</a>
+                {/* <a className="userNameButton" href="/1/profile" style={{cursor:"pointer"}}>John Doe</a> */}
+                <div className="dropdown">
+                    <span type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="d-flex justify-content-between align-items-center dropdown-toggle">
+                        Signup/Login
+                    </span>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="dropdown-item" href="/user/signup">Donar</a>
+                        <a className="dropdown-item" href="/bank/login">Blood Bank</a>
+                    </div>
+                </div>
                 {/* <a className="registerButton" style={{cursor:"pointer"}} href="/signup">Signup/Login</a> */}
             </div>
         </div>

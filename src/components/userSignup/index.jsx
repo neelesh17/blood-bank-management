@@ -34,7 +34,7 @@ const SignUp = () => {
                     <input style={{width:"25%"}} type="number" placeholder="Pin Code" name="pinCode" required/>
                 </div>
                 <button type="submit" className="signUpButton">SignUp</button>
-                <p>Already a user? <a href="/login">Login</a></p>
+                <p>Already a user? <a href="/user/login">Login</a></p>
             </form>
         </div>
      );

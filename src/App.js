@@ -3,11 +3,11 @@ import { Route, Switch } from "react-router-dom";
 import EditBlogDetailsModal from './components/editProfileDetailsModal';
 import Footer from './components/footer';
 import LandingPage from './components/landingPage';
-import Login from './components/login';
+import UserLogin from './components/userLogin';
 import NavBar from './components/navbar';
 import ProfilePage from './components/profilePage';
-import SignUp from './components/signup';
-
+import UserSignUp from './components/userSignup';
+import BankLogin from './components/bankLogin';
 
 function App() {
   return (
@@ -15,9 +15,10 @@ function App() {
       {window.location.href.includes("/signup") || window.location.href.includes("/login") ? null: <NavBar />}
       <Switch>
         <Route path="/" exact component={LandingPage}/>
-        <Route path="/signup" exact component={SignUp}/>
+        <Route path="/user/signup" exact component={UserSignUp}/>
         <Route path="/:id/profile/" exact component={ProfilePage} />
-        <Route path="/login" exact component={Login}/>
+        <Route path="/user/login" exact component={UserLogin}/>
+        <Route path="/bank/login" exact component={BankLogin}/>
       </Switch>
       <EditBlogDetailsModal />
       {window.location.href.includes("/signup") || window.location.href.includes("/login") ? null: <Footer />}
