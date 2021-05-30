@@ -8,6 +8,7 @@ import NavBar from './components/navbar';
 import ProfilePage from './components/profilePage';
 import UserSignUp from './components/userSignup';
 import BankLogin from './components/bankLogin';
+import UserListTable from './components/userList';
 
 function App() {
   return (
@@ -19,8 +20,10 @@ function App() {
         <Route path="/user/:id/profile/" exact component={ProfilePage} />
         <Route path="/user/login" exact component={UserLogin}/>
         <Route path="/bank/login" exact component={BankLogin}/>
+        <Route path="/user/list" exact component={UserListTable} />
       </Switch>
       <EditBlogDetailsModal />
+      
       {window.location.href.includes("/signup") || window.location.href.includes("/login") ? null: <Footer />}
     </div>
   );

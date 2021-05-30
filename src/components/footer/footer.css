@@ -6,6 +6,8 @@
     align-items: center;
     color: #227C9D;
     padding: 0.5% 0;
+    height: 5vh;
+    max-height: 5vh;
 }
 .footerContainer .contactUs{
     font-size: 24px;

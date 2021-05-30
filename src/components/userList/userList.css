@@ -1,0 +1,14 @@
+.userListContainer{
+    height:87vh;
+    padding: 2% 10%;
+    font-family: Raleway !important;
+} 
+.userListContainer .userListHeader{
+    font: normal normal normal 36px Raleway;
+    color: #227C9D;
+    padding-bottom: 2%;
+}
+.userListContainer .tableContainer{
+    height: 75vh;
+    overflow-y: scroll;
+}

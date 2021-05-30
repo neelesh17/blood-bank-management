@@ -6,7 +6,9 @@ const ProfilePage = () => {
     const [userInfo, setUserInfo] = useState({
         name :"John Doe",
         conatct:"9486375461",
-        address:"422 Dicki Row Lavonne Key ,Albania",
+        address:"422 Dicki Row Lavonne Key",
+        city: "Albania",
+        state: "New York",
         bloodGroup:"AB+",
         gender: "Male",
         email: "johndoe@moogle.cc",
@@ -81,6 +83,12 @@ const ProfilePage = () => {
                     </div>
                     <div className="element">
                         <span>Address :</span> <span className="value">{userInfo.address}</span>
+                    </div>
+                    <div className="element">
+                        <span>City :</span> <span className="value">{userInfo.city}</span>
+                    </div>
+                    <div className="element">
+                        <span>State :</span> <span className="value">{userInfo.state}</span>
                     </div>
                     <div className="element">
                         <span>Pin Code :</span> <span className="value">{userInfo.pinCode}</span>
