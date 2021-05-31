@@ -28,7 +28,7 @@ const UserListTable = () => {
                                     <td>{user.bloodGroup}</td>
                                     <td>{user.city}</td>
                                     <td>{user.state}</td>
-                                    <td>{user.conatct}</td>
+                                    <td>{user.contact}</td>
                                 </tr>
                             ))
                         }

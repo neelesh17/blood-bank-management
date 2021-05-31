@@ -5,12 +5,14 @@ const EditBlogDetailsModal = () => {
   const [userInfo, setUserInfo] = useState({
     name :"John Doe",
     contact:"9486375461",
-    address:"422 Dicki Row Lavonne Key ,Albania",
+    address:"422 Dicki Row Lavonne Key",
+    city: 'Albania',
+    state: "New York",
     bloodGroup:"AB+",
     gender: "Male",
     email: "johndoe@moogle.cc",
     pinCode: "13815",
-    dob: new Date('1999-05-12').toISOString().substr(0, 10),
+    dob: '1999-05-12',
     wbDate: "2019-07-13",
     wbAddress: "City Hospital, Bhopal",
     plasmaDate: "2020-05-12",
@@ -29,6 +31,8 @@ const EditBlogDetailsModal = () => {
       name :userInfo.name,
       conatct:userInfo.contact,
       address:userInfo.address,
+      city: userInfo.city,
+      state: userInfo.state,
       bloodGroup:userInfo.bloodGroup,
       gender: userInfo.gender,
       email: userInfo.email,
@@ -66,22 +70,32 @@ const EditBlogDetailsModal = () => {
             </div>
             <div className="modal-body">
               <form className="form center flex-column" id="profileUpdateForm" onSubmit={handleSubmit}>
-                <div className="form-group">
-                  <label className="label" htmlFor="name"> Name </label>
-                  <input type="text" className="form-control input" required id="name" name="name" placeholder="Name" value={userInfo.name} onChange={handleChange}/>
-                </div>
-                <div className="form-group">
+                <div className="col-12 form-group">
                   <label className="label" htmlFor="email"> Email </label>
                   <input type="email" className="form-control input" required id="email" name="email" value={userInfo.email} onChange={handleChange} placeholder="Email" />
                 </div>
-                <div className="form-group">
+                <div className="flex">
+                  <div className="col-8 form-group">
+                    <label className="label" htmlFor="name"> Name </label>
+                    <input type="text" className="form-control input" required id="name" name="name" placeholder="Name" value={userInfo.name} onChange={handleChange}/>
+                  </div>
+                  <div className="col-4 form-group">
+                    <label className="label" htmlFor="contact"> Contact Number </label>                  
+                    <input type="number" className="form-control input" required id="contact" name="contact" value={userInfo.contact} onChange={handleChange} placeholder="Contact Number" />
+                  </div>
+                </div>
+                <div className="col-12 form-group">
                   <label className="label" htmlFor="address"> Address (max character: 250)</label> 
                   <textarea rows="3" type="text" maxLength="250" className="form-control input" required id="address" name="address" value={userInfo.address} onChange={handleChange} placeholder="Address" />
                 </div>
                 <div className="flex ">
-                  <div className="col-8 form-group">
-                    <label className="label" htmlFor="contact"> Contact Number </label>                  
-                    <input type="number" className="form-control input" required id="contact" name="contact" value={userInfo.contact} onChange={handleChange} placeholder="Contact Number" />
+                  <div className="col-4 form-group">
+                    <label className="label" htmlFor="city">City</label>                  
+                    <input type="text" className="form-control input" required id="city" name="city" value={userInfo.city} onChange={handleChange} placeholder="City" />
+                  </div>
+                  <div className="col-4 form-group">
+                    <label className="label" htmlFor="state">State</label>                  
+                    <input type="text" className="form-control input" required id="state" name="state" value={userInfo.state} onChange={handleChange} placeholder="State" />
                   </div>
                   <div className="col-4 form-group">
                     <label className="label" htmlFor="pinCode"> Pin Code </label>                  

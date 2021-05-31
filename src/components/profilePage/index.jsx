@@ -4,32 +4,35 @@ import "./profile.css";
 
 const ProfilePage = () => {
     const [userInfo, setUserInfo] = useState({
-        name :"John Doe",
-        conatct:"9486375461",
-        address:"422 Dicki Row Lavonne Key",
-        city: "Albania",
-        state: "New York",
-        bloodGroup:"AB+",
-        gender: "Male",
-        email: "johndoe@moogle.cc",
-        pinCode: "13815",
-        dob: "12-May-1999",
-        donationList: [
-            {
-                header: "White Blood",
-                date: "13-July-2019",
-                address: "City Hospital, Bhopal"
-            },
-            {
-                header: "Plasma",
-                date: "12-May-2020",
-                address: "AIMS Hospital, Bhopal"
-            },
-            {
-                header: "Platelets",
-                date: "26-December-2018",
-                address: "Hamidiya Hospital, Bhopal"
-            }
+        "_id": "60b464c8d27de74c964f5099",
+        "name": "Sandoval Hull",
+        "gender": "male",
+        "email": "sandovalhull@olympix.com",
+        "contact": "+91 (919) 563-3492",
+        "address": "779 Bliss Terrace",
+        "city": "Caroleen",
+        "state": "Massachusetts",
+        "pinCode": 3989,
+        "bloodGroup": "O+",
+        "dob": "1997-07-28",
+        "latitude": -66.284815,
+        "longitude": -10.027864,
+        "donationList": [
+          {
+            "header": "White Blood",
+            "date": "2020-03-01",
+            "address": "Specialty Medical Clinic, Hasty"
+          },
+          {
+            "header": "Plasma",
+            "date": "2020-08-26",
+            "address": "White Willow Clinic, Nord"
+          },
+          {
+            "header": "Platelets",
+            "date": "2019-03-05",
+            "address": "Serenity Medical Clinic,Breinigsville"
+          }
         ]
     });
     return ( 
@@ -79,16 +82,10 @@ const ProfilePage = () => {
                 </div>
                 <div className="info">
                     <div className="element">
-                        <span>Phone Number :</span> <span className="value">{userInfo.conatct}</span>
+                        <span>Phone Number :</span> <span className="value">{userInfo.contact}</span>
                     </div>
                     <div className="element">
-                        <span>Address :</span> <span className="value">{userInfo.address}</span>
-                    </div>
-                    <div className="element">
-                        <span>City :</span> <span className="value">{userInfo.city}</span>
-                    </div>
-                    <div className="element">
-                        <span>State :</span> <span className="value">{userInfo.state}</span>
+                        <span>Address :</span> <span className="value">{userInfo.address}, {userInfo.city}, {userInfo.state}</span>
                     </div>
                     <div className="element">
                         <span>Pin Code :</span> <span className="value">{userInfo.pinCode}</span>
