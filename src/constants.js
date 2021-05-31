@@ -485,293 +485,117 @@ export const userList = [
 		  "address": "United Community Hospital,Osage"
 		}
 	  ]
-	},
-	{
-	  "_id": "60b464c8bede2d60d79b623c",
-	  "name": "Randi Hunt",
-	  "gender": "female",
-	  "email": "randihunt@olympix.com",
-	  "contact": "+91 (988) 534-3272",
-	  "address": "664 Sedgwick Place",
-	  "city": "Maxville",
-	  "state": "New Jersey",
-	  "pinCode": 8566,
-	  "bloodGroup": "B+",
-	  "dob": "1999-08-09",
-	  "latitude": -78.089817,
-	  "longitude": 79.211523,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2021-03-23",
-		  "address": "Silver Pine Hospital Center, Belvoir"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2019-08-02",
-		  "address": "Willow Gardens Medical Clinic, Fairforest"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2020-02-04",
-		  "address": "Laguna Community Hospital,Rodanthe"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c8dcdefed7fab12a9c",
-	  "name": "Concetta Willis",
-	  "gender": "female",
-	  "email": "concettawillis@olympix.com",
-	  "contact": "+91 (979) 425-2510",
-	  "address": "315 Frost Street",
-	  "city": "Riegelwood",
-	  "state": "Pennsylvania",
-	  "pinCode": 9026,
-	  "bloodGroup": "A+",
-	  "dob": "1995-06-24",
-	  "latitude": 6.497051,
-	  "longitude": -137.204324,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2020-02-24",
-		  "address": "Ruby Valley Medical Center, Westmoreland"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2020-09-09",
-		  "address": "Bellflower Clinic, Rutherford"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2020-02-15",
-		  "address": "Laguna Community Hospital,Avalon"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c87cd5298599537480",
-	  "name": "Winnie Valdez",
-	  "gender": "female",
-	  "email": "winnievaldez@olympix.com",
-	  "contact": "+91 (932) 519-2111",
-	  "address": "715 Columbia Place",
-	  "city": "Urbana",
-	  "state": "Oregon",
-	  "pinCode": 6365,
-	  "bloodGroup": "AB-",
-	  "dob": "1996-10-29",
-	  "latitude": 80.771215,
-	  "longitude": -47.738174,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2020-10-17",
-		  "address": "Ruby Valley Medical Center, Tedrow"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2020-04-24",
-		  "address": "Willow Gardens Medical Clinic, Frystown"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2021-01-23",
-		  "address": "Serenity Medical Clinic,Keller"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c8ca6ba40107c6cf62",
-	  "name": "Vanessa Thornton",
-	  "gender": "female",
-	  "email": "vanessathornton@olympix.com",
-	  "contact": "+91 (933) 427-2795",
-	  "address": "257 Bartlett Place",
-	  "city": "Riceville",
-	  "state": "Florida",
-	  "pinCode": 2650,
-	  "bloodGroup": "B-",
-	  "dob": "1998-08-23",
-	  "latitude": -8.555636,
-	  "longitude": 151.77806,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2020-01-14",
-		  "address": "Silver Pine Hospital Center, Gibbsville"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2020-12-04",
-		  "address": "Grand Oak Hospital Center, Irwin"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2019-05-18",
-		  "address": "Laguna Community Hospital,Motley"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c881b0f2d446725dc3",
-	  "name": "Wolfe Shelton",
-	  "gender": "male",
-	  "email": "wolfeshelton@olympix.com",
-	  "contact": "+91 (812) 569-2530",
-	  "address": "767 Malta Street",
-	  "city": "Efland",
-	  "state": "Marshall Islands",
-	  "pinCode": 7770,
-	  "bloodGroup": "A-",
-	  "dob": "1997-12-12",
-	  "latitude": 19.970732,
-	  "longitude": 130.611384,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2020-05-25",
-		  "address": "Golden Valley General Hospital, Elliston"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2020-12-23",
-		  "address": "Citrus General Hospital, Grapeview"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2020-08-16",
-		  "address": "Laguna Community Hospital,Winston"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c84e240f585cbd81f4",
-	  "name": "Corrine Ferrell",
-	  "gender": "female",
-	  "email": "corrineferrell@olympix.com",
-	  "contact": "+91 (884) 401-3635",
-	  "address": "398 Dekoven Court",
-	  "city": "Jugtown",
-	  "state": "Indiana",
-	  "pinCode": 6051,
-	  "bloodGroup": "AB+",
-	  "dob": "1997-09-20",
-	  "latitude": -11.429244,
-	  "longitude": -55.583537,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2020-03-25",
-		  "address": "Angelwood Clinic, Outlook"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2019-04-12",
-		  "address": "Willow Gardens Medical Clinic, Elbert"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2020-04-05",
-		  "address": "White Feather Hospital,Mooresburg"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c8cba68839ed1353e8",
-	  "name": "Violet Fletcher",
-	  "gender": "female",
-	  "email": "violetfletcher@olympix.com",
-	  "contact": "+91 (900) 593-3065",
-	  "address": "171 Grafton Street",
-	  "city": "Shindler",
-	  "state": "Kentucky",
-	  "pinCode": 6462,
-	  "bloodGroup": "B+",
-	  "dob": "1996-11-07",
-	  "latitude": -12.475661,
-	  "longitude": 169.343596,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2021-03-27",
-		  "address": "Angelwood Clinic, Orick"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2019-01-15",
-		  "address": "Grand Oak Hospital Center, Chesapeake"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2019-09-30",
-		  "address": "Laguna Community Hospital,Croom"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c88e65a120892dafe9",
-	  "name": "Hall Hubbard",
-	  "gender": "male",
-	  "email": "hallhubbard@olympix.com",
-	  "contact": "+91 (860) 587-3807",
-	  "address": "476 Noll Street",
-	  "city": "Evergreen",
-	  "state": "Iowa",
-	  "pinCode": 5921,
-	  "bloodGroup": "B+",
-	  "dob": "1996-12-27",
-	  "latitude": -33.982451,
-	  "longitude": -158.216166,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2020-03-19",
-		  "address": "Golden Valley General Hospital, Vienna"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2020-04-16",
-		  "address": "Willow Gardens Medical Clinic, Zeba"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2021-01-01",
-		  "address": "Spring Fountain Community Hospital,Dellview"
-		}
-	  ]
-	},
-	{
-	  "_id": "60b464c84ea0768d0cb6d975",
-	  "name": "Ora Harmon",
-	  "gender": "female",
-	  "email": "oraharmon@olympix.com",
-	  "contact": "+91 (973) 521-2788",
-	  "address": "947 Imlay Street",
-	  "city": "Bison",
-	  "state": "Georgia",
-	  "pinCode": 4205,
-	  "bloodGroup": "A-",
-	  "dob": "1998-11-20",
-	  "latitude": -66.416357,
-	  "longitude": -92.470859,
-	  "donationList": [
-		{
-		  "header": "White Blood",
-		  "date": "2021-01-15",
-		  "address": "Specialty Medical Clinic, Bourg"
-		},
-		{
-		  "header": "Plasma",
-		  "date": "2020-11-20",
-		  "address": "Grand Oak Hospital Center, Jennings"
-		},
-		{
-		  "header": "Platelets",
-		  "date": "2020-11-11",
-		  "address": "United Community Hospital,Ferney"
-		}
-	  ]
 	}
-  ]
+]
+export const bankList = [
+	{
+	  "_id": "60b4745cdc6662cc7fc626d0",
+	  "name": "ZAJ BANK",
+	  "email": "patenieves@zaj.com",
+	  "phone": "+91 (862) 404-2817",
+	  "address": "964 Grand Avenue, Floriston, Georgia, 7475",
+	  "lastUpdated": "2021-05-26",
+	  "category": "Private",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745cc64069489bbe7cfb",
+	  "name": "ACUSAGE BANK",
+	  "email": "patenieves@acusage.com",
+	  "phone": "+91 (928) 429-2400",
+	  "address": "149 Kane Place, Benson, North Dakota, 8241",
+	  "lastUpdated": "2021-04-27",
+	  "category": "Government",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c2c719be8d5750472",
+	  "name": "MANTRO BANK",
+	  "email": "patenieves@mantro.com",
+	  "phone": "+91 (844) 562-3219",
+	  "address": "177 Duryea Place, Dola, New Hampshire, 1940",
+	  "lastUpdated": "2021-02-19",
+	  "category": "Private",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c34cd1584073d1639",
+	  "name": "SLOFAST BANK",
+	  "email": "patenieves@slofast.com",
+	  "phone": "+91 (862) 560-2854",
+	  "address": "605 Broome Street, Saticoy, Kansas, 4221",
+	  "lastUpdated": "2021-05-02",
+	  "category": "Government",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c8db3dcef20b91e87",
+	  "name": "ACCEL BANK",
+	  "email": "patenieves@accel.com",
+	  "phone": "+91 (976) 528-2748",
+	  "address": "497 Trucklemans Lane, Bennett, Nebraska, 5739",
+	  "lastUpdated": "2021-02-09",
+	  "category": "Private",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745ce71a040a5236f9f9",
+	  "name": "ZANITY BANK",
+	  "email": "patenieves@zanity.com",
+	  "phone": "+91 (857) 411-3602",
+	  "address": "994 Miami Court, Hayes, California, 8882",
+	  "lastUpdated": "2021-05-05",
+	  "category": "Government",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c7a50260dd5f5c05f",
+	  "name": "OHMNET BANK",
+	  "email": "patenieves@ohmnet.com",
+	  "phone": "+91 (963) 496-2319",
+	  "address": "736 Boerum Place, Salvo, Washington, 8399",
+	  "lastUpdated": "2021-03-05",
+	  "category": "Government",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c570a90d7e24a73c1",
+	  "name": "THREDZ BANK",
+	  "email": "patenieves@thredz.com",
+	  "phone": "+91 (970) 576-2015",
+	  "address": "988 Colin Place, Aberdeen, Vermont, 5039",
+	  "lastUpdated": "2021-01-09",
+	  "category": "Private",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745cfc7cae37bbb03ab8",
+	  "name": "NITRACYR BANK",
+	  "email": "patenieves@nitracyr.com",
+	  "phone": "+91 (908) 512-3446",
+	  "address": "745 Dank Court, Emerald, Virgin Islands, 569",
+	  "lastUpdated": "2021-02-04",
+	  "category": "Private",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c4084dd33dd493e6f",
+	  "name": "NORALI BANK",
+	  "email": "patenieves@norali.com",
+	  "phone": "+91 (905) 543-2834",
+	  "address": "824 Macdougal Street, Marne, Ohio, 7989",
+	  "lastUpdated": "2021-05-11",
+	  "category": "Government",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	},
+	{
+	  "_id": "60b4745c2be2f4833481fac9",
+	  "name": "ECOSYS BANK",
+	  "email": "patenieves@ecosys.com",
+	  "phone": "+91 (942) 472-3917",
+	  "address": "179 Campus Place, Celeryville, Pennsylvania, 3500",
+	  "lastUpdated": "2021-05-09",
+	  "category": "Government",
+	  "availability": "A+, B+, AB+, A-,B-AB-,O+,O-"
+	}
+  ];

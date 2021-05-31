@@ -1,0 +1,14 @@
+.bankListContainer{
+    height:87vh;
+    padding: 2% 10%;
+    font-family: Raleway !important;
+} 
+.bankListContainer .bankListHeader{
+    font: normal normal normal 36px Raleway;
+    color: #227C9D;
+    padding-bottom: 2%;
+}
+.bankListContainer .tableContainer{
+    height: 75vh;
+    overflow-y: scroll;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './userList.css';
-import {userList} from '../../constants';
+import { userList } from '../../constants';
+
 const UserListTable = () => {
     return ( 
         <div className="userListContainer">

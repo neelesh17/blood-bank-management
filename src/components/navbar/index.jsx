@@ -13,8 +13,8 @@ const NavBar = () => {
                 </a>
             </div>
             <div className="rightMenu">
-                <a className="donarListButton" href="/user/list"style={{cursor:"pointer"}}>Individual Donars</a>
-                <a className="bankListButton" href={window.location.href==="/" ? "#faq" : "/"} style={{cursor:"pointer"}}>Blood Banks</a>
+                <a className="donarListButton" href="/user/list" style={{cursor:"pointer"}}>Individual Donars</a>
+                <a className="bankListButton" href="/bank/list" style={{cursor:"pointer"}}>Blood Banks</a>
                 <a className="FAQButton"href={window.location.href==="/" ? "#faq" : "/#faq"} style={{cursor:"pointer"}}>FAQ's</a>
                 <a className="aboutButton" href={window.location.href==="/" ? "#about" : "/#about"} style={{cursor:"pointer"}}>About</a>
                 {/* <a className="userNameButton" href="/user/1/profile" style={{cursor:"pointer"}}>John Doe</a> */}

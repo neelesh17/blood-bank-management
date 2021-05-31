@@ -9,6 +9,7 @@ import ProfilePage from './components/profilePage';
 import UserSignUp from './components/userSignup';
 import BankLogin from './components/bankLogin';
 import UserListTable from './components/userList';
+import BankListTable from './components/bankList';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/user/login" exact component={UserLogin}/>
         <Route path="/bank/login" exact component={BankLogin}/>
         <Route path="/user/list" exact component={UserListTable} />
+        <Route path="/bank/list" exact component={BankListTable} />
       </Switch>
       <EditBlogDetailsModal />
       
