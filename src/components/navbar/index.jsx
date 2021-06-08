@@ -25,6 +25,7 @@ const NavBar = () => {
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a className="dropdown-item" href="/user/signup">Donar</a>
                         <a className="dropdown-item" href="/bank/login">Blood Bank</a>
+                        <a className="dropdown-item" href="/admin/login">Admin</a>
                     </div>
                 </div>
                 {/* <a className="registerButton" style={{cursor:"pointer"}} href="/signup">Signup/Login</a> */}
